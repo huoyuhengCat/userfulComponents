@@ -1,0 +1,30 @@
+@mixin placeholder-color($color) {
+    &::-webkit-input-placeholder{
+        color:$color;
+    }
+    &::-moz-placeholder{   /* Mozilla Firefox 19+ */
+        color:$color;
+    }
+    &:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+        color:$color;
+    }
+    &:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+        color:$color;
+    }
+}
+@mixin break-word {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+@mixin circle($size) {
+    width: $size;
+    height: $size;
+    overflow: hidden;
+    border-radius: 100%;
+}
+@mixin flex(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
