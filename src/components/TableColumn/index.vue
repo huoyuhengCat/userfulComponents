@@ -85,7 +85,7 @@ export default {
     },
     createChildren () {
       // 表单字段为多级表头
-      return this.createTableColumn('span', {}, [this.column.children.map((item) => {
+      return this.createTableColumn({}, [this.column.children.map((item) => {
         // 不确定深度的表头自动递归
         return this.$createElement('table-column', {
           props: {
