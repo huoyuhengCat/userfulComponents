@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-form :inline="true" :model="queryForm">
-      <el-button @click="queryHandler" size="medium" type="primary">查询</el-button>
+      <el-button @click="queryHandler" size="medium" type="primary">查询嘻嘻</el-button>
       <el-button @click="resetHandler" size="medium">重置</el-button>
       <el-button @click="addeditHandler('add')" size="medium">新增</el-button>
     </el-form>
