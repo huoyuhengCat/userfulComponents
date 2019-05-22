@@ -3,7 +3,6 @@
     <query-form :config="queryFormConfig" ref="queryForm"></query-form>
     <el-row>
       <el-button type="primary" @click="addOrgButton" size="small">新建组织</el-button>
-      <el-button type="primary" @click="addOrgButton" size="small">新建组织</el-button>
     </el-row>
     <Tables
       :data="queryList"
